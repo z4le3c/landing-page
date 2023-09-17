@@ -119,3 +119,27 @@ h2 {
     border: 3px solid #3882F6;
     border-radius: 8px;
 }
+/* Lower section(quote) */
+.low {
+    background: #E5E7EB;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.low .content {
+    width: 60%;
+}
+
+.quote {
+    font-size:36px;
+    font-weight: lighter;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.q-author {
+    font-weight: bold;
+    text-align: right;
+}
