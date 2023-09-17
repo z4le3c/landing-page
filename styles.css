@@ -6,7 +6,7 @@ body {
 /* Upper section */
 
 .header {
-    background: #1F2937;
+    background: #e63946;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -34,7 +34,7 @@ a {
 .secundary,
 a {
     font-size: 18px;
-    color: #E5E7EB;
+    color: #F1FAEE;
 }
 
 .header .content {
@@ -57,9 +57,9 @@ a {
 button {
     padding: 8px 32px;
     border-radius: 8px;
-    background: #3882F6;
+    background: #457B9D;
     border: 0;
-    color: #E5E7EB;
+    color: #F1FAEE;
     font-weight: bold;
 }
 
@@ -81,6 +81,7 @@ h1 {
     display: flex;
     justify-content: center;
     padding: 32px;
+    background: #F1FAEE;
 }
 
 .mid .content {
@@ -93,7 +94,7 @@ h1 {
 h2 {
     font-size: 32px;
     font-weight: bolder;
-    color:#1F2937;
+    color:#1D3557;
     text-align: center;
 }
 
@@ -114,12 +115,12 @@ h2 {
 
 .card img {
     width: 100%;
-    border: 3px solid #3882F6;
+    border: 3px solid #457B9D;
     border-radius: 8px;
 }
 /* Lower section(quote) */
 .low {
-    background: #E5E7EB;
+    background: #A8DADC;
     height: 400px;
     display: flex;
     justify-content: center;
@@ -134,7 +135,7 @@ h2 {
     font-size:36px;
     font-weight: lighter;
     font-style: italic;
-    color: #1F2937;
+    color: #1D3557;
 }
 
 .q-author {
@@ -149,13 +150,14 @@ h2 {
     justify-content: center;
     align-items: center;
     height: 300px;
+    background: #F1FAEE;
 }
 
 .call-to-action .content {
     box-sizing: border-box;
     width: 70%;
     height: 128px;
-    background: #3882F6;
+    background: #457B9D;
     border-radius: 8px;
     padding: 32px 128px;
     display: flex;
@@ -165,12 +167,12 @@ h2 {
 }
 
 .cta-text p {
-    color: #E5E7EB;
+    color: #F1FAEE;
     margin: 0px;
 }
 
 .cta-b {
-    border: 3px solid #E5E7EB;
+    border: 3px solid #F1FAEE;
     flex-shrink: 0;
 }
 
@@ -182,7 +184,7 @@ h2 {
 /* footer */
 
 footer {
-    background: #1F2937;
+    background: #1D3557;
     height: 64px;
     display: flex;
     align-items: center;
@@ -190,5 +192,5 @@ footer {
 }
 
 footer p {
-    color: #E5E7EB;
+    color: #F1FAEE;
 }
