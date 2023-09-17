@@ -180,3 +180,17 @@ h2 {
     font-weight: bold;
 
 }
+
+/* footer */
+
+footer {
+    background: #1F2937;
+    height: 64px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer p {
+    color: #E5E7EB;
+}
