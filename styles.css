@@ -143,3 +143,40 @@ h2 {
     font-weight: bold;
     text-align: right;
 }
+
+/* Call to action section */
+
+.call-to-action {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+}
+
+.call-to-action .content {
+    box-sizing: border-box;
+    width: 70%;
+    height: 128px;
+    background: #3882F6;
+    border-radius: 8px;
+    padding: 32px 128px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap:16px;
+}
+
+.cta-text p {
+    color: #E5E7EB;
+    margin: 0px;
+}
+
+.cta-b {
+    border: 3px solid #E5E7EB;
+    flex-shrink: 0;
+}
+
+.cta-text .h {
+    font-weight: bold;
+
+}
